@@ -760,14 +760,14 @@ function ouvrirf6lspd()
             end)
             RageUI.Button("Carte d'identité", "Pour voir la carte d'identité de la personne proche", {RightLabel = "→"}, true, function(Hovered, Active, Selected)
                 if (Selected) then   
-                RageUI.CloseALL()
+                RageUI.CloseAll()
                 f6lspd = false
                 OpenIdentityCardMenu(closestPlayer)
             end
             end)
             RageUI.Button("Fouiller", "Pour fouiller la personne proche", {RightLabel = "→"}, true, function(Hovered, Active, Selected)
                 if (Selected) then   
-                RageUI.CloseALL()
+                RageUI.CloseAll()
                 f6lspd = false
                 OpenBodySearchMenu(closestPlayer)
             end
