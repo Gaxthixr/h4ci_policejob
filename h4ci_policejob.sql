@@ -11,5 +11,5 @@ INSERT INTO `job_grades` (`job_name`, `grade`, `name`, `label`, `salary`) VALUES
 ('lspd', 0, 'cadet', 'Cadet', 100),
 ('lspd', 1, 'officier', 'Officier', 100),
 ('lspd', 2, 'sergent', 'Sergent', 100),
-('lspd', 3, 'lieutenant', 'Lieutenant', 100)
+('lspd', 3, 'lieutenant', 'Lieutenant', 100),
 ('lspd', 4, 'boss', 'Commandant', 100);
